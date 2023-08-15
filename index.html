@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodixa</title>
+    <link rel="icon" href="assets/images/Screenshot 2023-06-16 162804.png"">
+    <link rel=" stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body class="body" >
+    <!-- oncontextmenu="return false" -->
+    <header>
+        <div id="navbar" class="navbar">
+            <div class="logo"><img src="assets/images/WhatsApp455new5.jpg" alt="#"></div>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <a href="#" class="action_btn">Let’s Talk</a>
+            <div class="toggle_btn">
+                <input id="checkbox" type="checkbox" class="dropbtn" onclick="myFunction()">
+                <label class="toggle" for="checkbox">
+                    <div class="bar bar--top"></div>
+                    <div class="bar bar--middle"></div>
+                    <div class="bar bar--bottom"></div>
+                </label>
+            </div>
+        </div>
+        <div class="dropdown">
+            <li class="li" onclick="closee()"><a   href="#" >Home</a></li>
+            <li class="li" onclick="closee()"><a   href="#">About</a></lic>
+            <li class="li" onclick="closee()"><a   href="#">Reviews</a></li>
+            <li class="li" onclick="closee()"><a   href="#">Services</a></li>
+            <li class="li" onclick="closee()"><a   href="#">Contact Us</a></li>
+            <li class="li" onclick="closee()"><a   href="#" class="action_btn">Let’s Talk</a></li>
+        </div>
+    </header>
+    <!-- end header -->
+    <main>
+        <section class="sec1" onclick="closee()">
+            <div>
+                <p class="best">best in egypt #1 </p>
+                <p class="creative">creative <br>digital agency</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
